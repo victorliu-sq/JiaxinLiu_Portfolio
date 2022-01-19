@@ -60,6 +60,22 @@
 
 
 
+# Custom Domain
+
+1. buy a domain name
+
+   https://ap.www.namecheap.com/
+
+2. domain list + manage
+
+3. advanced DNS
+
+   (1)	Type: a record, host: @, value: 185.199.108.153 ~ 185.199.111.153
+
+   (2)	Type: CNAME, Host: www, value：185.199.108.153 
+
+4. add custom domain in repo + setting + pages
+
 # HTML
 
 ## Shortcuts
