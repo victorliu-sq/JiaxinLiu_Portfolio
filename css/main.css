@@ -56,20 +56,21 @@ main {
     font-weight: 400;
     margin-bottom: 0rem; }
   main .intro {
-    width: 500px; }
+    width: 400px; }
+    main .intro p {
+      font-size: 1.2rem;
+      padding: 1rem, 1rem, 2rem, 2rem; }
   main .icons a {
     padding-right: 10px;
     color: white; }
     main .icons a:hover {
       color: green; }
   main#home-main {
-    margin-top: 10rem;
+    margin-top: 5rem;
     padding-left: 4rem;
     padding-right: 4rem; }
     main#home-main .lastname {
       color: green; }
-    main#home-main .h2 {
-      padding: 1rem, 1rem, 2rem, 2rem; }
     main#home-main .icons {
       margin-top: 100px; }
   main#main-project {
@@ -110,7 +111,7 @@ main {
       color: green; }
     main#main-contact h1 {
       margin-top: 2rem; }
-    main#main-contact h2.epa {
+    main#main-contact p.epa {
       font-size: 1.2rem; }
     main#main-contact .contact-method {
       background: rgba(0, 128, 0, 0.2);
