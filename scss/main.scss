@@ -88,7 +88,12 @@ main {
     }
 
     .intro{
-        width: 500px;
+        width: 400px;
+
+        p{
+            font-size: 1.2rem;
+            padding: 1rem, 1rem, 2rem, 2rem;
+        }
     }
 
     .icons{
@@ -102,7 +107,7 @@ main {
     }
     //Main of Home
     &#home-main{
-        margin-top: 10rem;
+        margin-top: 5rem;
         padding-left: 4rem;
         padding-right: 4rem;
 
@@ -110,9 +115,6 @@ main {
             color: $secondary-color;
         }
 
-        .h2{
-            padding: 1rem, 1rem, 2rem, 2rem;
-        }
         .icons{
             margin-top: 100px;
         }
@@ -184,7 +186,7 @@ main {
             margin-top:2rem;
         }
 
-        h2{
+        p{
             &.epa{
                 font-size: 1.2rem;
             }
