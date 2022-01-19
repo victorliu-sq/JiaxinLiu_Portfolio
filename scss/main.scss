@@ -92,7 +92,6 @@ main {
     }
 
     .icons{
-        margin-top: 100px;
         a {
             padding-right: 10px;
             color: white;
@@ -114,6 +113,9 @@ main {
         .h2{
             padding: 1rem, 1rem, 2rem, 2rem;
         }
+        .icons{
+            margin-top: 100px;
+        }
     }
 
     &#main-project{
@@ -124,11 +126,7 @@ main {
         .lastname{
             color: $secondary-color;
         }
-
-        .project{
-            padding: 20rem, 20rem, 10rem, 10rem;
-        }
-
+        
         h1{
             margin-top:8rem;
         }
@@ -149,7 +147,7 @@ main {
             border-bottom: $secondary-color 3px solid;
             width: 80%;
             margin:auto;
-            margin-top: 5rem;
+            margin-top: 2rem;
             padding-top: 2rem;
             padding-bottom: 2rem;
             padding-left: 3rem;
