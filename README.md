@@ -32,6 +32,34 @@
 
 ​	
 
+# Deployment
+
+1. install gh pages
+
+   ```
+   npm i gh-pages
+   ```
+
+   
+
+2. add homepage package
+
+   ```
+   "homepages": "https://jiaxinliu.github.io/modern_portfolio"
+   ```
+
+   
+
+3. add deploy to scripts in package
+
+   ```
+   "deploy": "gh-pages -d dist"
+   ```
+
+4. npm run deploy
+
+
+
 # HTML
 
 ## Shortcuts
