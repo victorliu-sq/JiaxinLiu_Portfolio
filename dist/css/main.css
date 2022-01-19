@@ -113,7 +113,7 @@ main {
   main#main-contact {
     margin: auto;
     text-align: center;
-    min-height: calc(100vh - 60px); }
+    min-height: calc(100vh - 30px); }
     main#main-contact .lastname {
       color: green; }
     main#main-contact h1 {
