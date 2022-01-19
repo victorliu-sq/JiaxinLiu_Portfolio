@@ -105,6 +105,7 @@ main {
     .icons{
         a {
             padding-right: 10px;
+            text-decoration: none;
             color: white;
             &:hover{
                 color: $secondary-color;
