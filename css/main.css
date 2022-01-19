@@ -57,13 +57,11 @@ main {
     margin-bottom: 0rem; }
   main .intro {
     width: 500px; }
-  main .icons {
-    margin-top: 100px; }
-    main .icons a {
-      padding-right: 10px;
-      color: white; }
-      main .icons a:hover {
-        color: green; }
+  main .icons a {
+    padding-right: 10px;
+    color: white; }
+    main .icons a:hover {
+      color: green; }
   main#home-main {
     margin-top: 20rem;
     padding-left: 4rem;
@@ -72,14 +70,14 @@ main {
       color: green; }
     main#home-main .h2 {
       padding: 1rem, 1rem, 2rem, 2rem; }
+    main#home-main .icons {
+      margin-top: 100px; }
   main#main-project {
     margin: auto;
     text-align: center;
     min-height: calc(100vh - 50px); }
     main#main-project .lastname {
       color: green; }
-    main#main-project .project {
-      padding: 20rem, 20rem, 10rem, 10rem; }
     main#main-project h1 {
       margin-top: 8rem; }
     main#main-project h2.p-heading {
@@ -91,7 +89,7 @@ main {
       border-bottom: green 3px solid;
       width: 80%;
       margin: auto;
-      margin-top: 5rem;
+      margin-top: 2rem;
       padding-top: 2rem;
       padding-bottom: 2rem;
       padding-left: 3rem;
