@@ -108,8 +108,6 @@ main {
     padding-right: 3rem; }
     main#main-contact .contact-method:hover {
       background: rgba(0, 128, 0, 0.5); }
-  main#main-contact p {
-    width: 80%; }
 
 footer {
   text-align: center;
