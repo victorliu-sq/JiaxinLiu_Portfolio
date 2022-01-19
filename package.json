@@ -1,0 +1,22 @@
+{
+  "name": "self_portfolio",
+  "version": "1.0.0",
+  "description": "1. initialize npm to add package",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorliu-sq/JiaxinLiu_Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorliu-sq/JiaxinLiu_Portfolio/issues"
+  },
+  "homepage": "https://github.com/victorliu-sq/JiaxinLiu_Portfolio#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
