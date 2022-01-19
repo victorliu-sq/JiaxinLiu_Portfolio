@@ -80,58 +80,50 @@ main {
       color: green; }
     main#home-main .icons {
       margin-top: 100px; }
-  main#main-project {
+  main#main-project, main#main-contact {
     margin: auto;
     text-align: center;
     min-height: calc(100vh - 30px); }
-    main#main-project .lastname {
+    main#main-project .lastname, main#main-contact .lastname {
       color: green; }
-    main#main-project h1 {
+    main#main-project h1, main#main-contact h1 {
       margin-top: 4rem; }
-    main#main-project h2.p-heading {
-      font-size: 1.2rem; }
-    main#main-project p.p-content {
-      font-size: 1rem; }
-    main#main-project .project {
-      background: rgba(0, 128, 0, 0.2);
-      border-bottom: green 3px solid;
-      width: 80%;
-      margin: auto;
-      margin-top: 2rem;
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-      padding-left: 3rem;
-      padding-right: 3rem; }
-      main#main-project .project .cycleGAN {
-        color: white; }
-        main#main-project .project .cycleGAN:hover {
-          color: green; }
-      main#main-project .project:hover {
-        background: rgba(0, 128, 0, 0.5); }
-    main#main-project .icons a {
-      font-size: 1.2rem; }
-  main#main-contact {
+  main#main-project h2.p-heading {
+    font-size: 1.2rem; }
+  main#main-project p.p-content {
+    font-size: 1rem; }
+  main#main-project .project {
+    background: rgba(0, 128, 0, 0.2);
+    border-bottom: green 3px solid;
+    width: 80%;
     margin: auto;
-    text-align: center;
-    min-height: calc(100vh - 30px); }
-    main#main-contact .lastname {
-      color: green; }
-    main#main-contact h1 {
-      margin-top: 4rem; }
-    main#main-contact .contact-method {
-      background: rgba(0, 128, 0, 0.2);
-      border: white 1px solid;
-      width: 80%;
-      margin: auto;
-      margin-top: 2rem;
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-      padding-left: 3rem;
-      padding-right: 3rem; }
-      main#main-contact .contact-method:hover {
-        background: rgba(0, 128, 0, 0.5); }
-      main#main-contact .contact-method p.epa {
-        font-size: 1.2rem; }
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem; }
+    main#main-project .project .cycleGAN {
+      color: white; }
+      main#main-project .project .cycleGAN:hover {
+        color: green; }
+    main#main-project .project:hover {
+      background: rgba(0, 128, 0, 0.5); }
+  main#main-project .icons a {
+    font-size: 1.2rem; }
+  main#main-contact .contact-method {
+    background: rgba(0, 128, 0, 0.2);
+    border: white 1px solid;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem; }
+    main#main-contact .contact-method:hover {
+      background: rgba(0, 128, 0, 0.5); }
+    main#main-contact .contact-method p.epa {
+      font-size: 1.2rem; }
 
 footer {
   text-align: center;

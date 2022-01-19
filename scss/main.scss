@@ -130,7 +130,9 @@ main {
         }
     }
 
-    &#main-project{
+    //Main of project and contact
+    &#main-project,
+    &#main-contact{
         margin:auto;
         text-align: center;
         min-height: calc(100vh - 30px);
@@ -142,7 +144,9 @@ main {
         h1{
             margin-top:4rem;
         }
+    }
 
+    &#main-project{
         h2{
             &.p-heading{
                 font-size: 1.2rem;
@@ -185,17 +189,6 @@ main {
     }
 
     &#main-contact{
-        margin:auto;
-        text-align: center;
-        min-height: calc(100vh - 30px);
-
-        .lastname{
-            color: $secondary-color;
-        }
-        h1{
-            margin-top:4rem;
-        }
-
         .contact-method{
             background: rgba($secondary-color, 0.2);
             border: white 1px solid;
